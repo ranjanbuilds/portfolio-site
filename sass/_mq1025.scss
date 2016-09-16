@@ -1,0 +1,331 @@
+@media all and (max-width: 1025px) {
+
+	// GENERAL
+
+	.images {
+		// width: 50%;
+		height: 600px;
+		// position: relative;
+		.image {
+			height: 600px;
+			// width: 100%;
+		}
+	}
+
+	.content {
+		// width: 50%;
+		// float: left;
+		height: 600px;
+		.page_nav {
+			margin: 15px 0px 0px 0px;
+			// padding: 0;
+			// float:right;
+			// color: #222222;
+			// text-transform: uppercase;
+			li {
+				// float: left;
+				// list-style-type: none;
+				margin: 0px 20px 0px 0px;
+				font-size: 12px;
+				// &:hover {
+				// 	color: $accent-color-two;
+				// }
+			}
+		}
+	}		
+
+	.content_container {
+		max-width: 400px;
+		margin: 150px auto 0px auto;
+		// position: relative;
+		// clear: both;
+		.page {
+			// font-weight: normal;
+			margin: 15px 0px 0px 0px;
+			font-size: 16px;
+			// text-transform: uppercase;
+			// letter-spacing: 2px;
+			&:after {
+				// content: " ";
+				// display:block;
+				margin: 15px 0px 0px 0px;
+				// width: 75px;
+				// height: 1px;
+				// background-color: $primary-color;	
+			}
+		}
+		.title {
+			font-size: 25px;
+			// color: #1f1f1f;
+			// font-family: $title-font-stack;
+		}
+		.body {
+			// line-height: 1.5;
+			font-size: 14px;
+		}
+		// for the portfolio and blog sections
+		.body + p { 
+			font-size: 14px;
+			margin: 0px;
+		} 
+		.more {
+			margin: 20px 0px 0px 0px;
+			// .decoration {
+			// 	float:left;
+			// 	width: 30px;
+			// 	height: 1px;
+			// 	background-color: $primary-color;
+			// }
+			// .more_content {
+			// 	float:left;
+			// 	margin: 0px 0px 0px 40px;
+			// }
+		}
+	}
+
+	// HEADER
+
+	.header_social_nav, .skillz {
+		// margin: 10px 0px 0px 0px;
+		// padding: 0px;
+		li {
+			// padding: 0px;
+			// float: left;
+			font-size: 20px;
+			// list-style-type: none;
+			// margin-right: 10px;
+		}
+	}
+
+	.skillz_title {
+		font-size: 16px;
+		// text-transform: uppercase;
+		letter-spacing: 1.5px;
+		font-weight: normal;
+		color: $accent-color;
+	}
+
+	.bracket {
+		color: $accent-color-two;
+		font-weight: bold;
+		font-size: 18px;
+		position: relative;
+		top: -5px;
+	}
+
+	.skillz {
+		li {
+			font-size: 14px;
+			// line-height: 1.5;
+		}
+	}
+
+	// PORTFOLIO
+
+	.portfolio_content_container {
+		// position: absolute;
+		// background-color: #fff;
+		height: 400px;
+		// display: none;
+	}
+
+	.content .right_left {
+		li {
+			// color: #fff;
+			padding: 7px 20px;
+			// background-color: $accent-color;
+			// &:hover {
+			// 	background-color: $accent-color-two;
+			// 	color: #fff;
+			// 	cursor: pointer;
+			// }
+		}
+	}
+
+	.content .portfolio_more .more_content {
+		// margin: 0px 10px;
+		a {
+			// text-transform: uppercase;
+			font-size: 16px;
+		}
+	}
+
+	// BLOG 
+	.blog_content_container {
+		// position: absolute;
+		// background-color: #fff;
+		height: 400px;
+		// display: none;
+	}
+
+	.content .blog_more .more_content {
+		// margin: 0px 10px;
+		a {
+			// text-transform: uppercase;
+			font-size: 16px;
+		}
+	}
+
+	// PORTFOLIO REVAMP
+
+	.box {
+		height: 600px;
+		// max-width: 100%;
+		// background-color: #07575B;
+	}
+
+	.all_devices {
+		height: calc (250px + 250px);
+		width: 400px;
+		
+		// margin: 0 auto;
+		// position: relative;
+		top: calc( (600px - 500px + 40px) / 2 );
+	}
+
+	.laptop {
+		// ratio of 16:10 or 1.6
+		height: 250px;
+		width: 400px;
+		
+		// margin: 0px auto;
+	}
+
+	.laptop img {
+		// width: 100%;
+		// height: 100%;
+		// border: 1px solid white;
+	}
+	.other {
+		height: 250px;
+		width: 400px;
+		
+		// margin: 0px auto;
+	}
+	.other_tablet {
+		// float: left;
+		height: 250px;
+		// width: 70%;
+		
+	}
+	.tablet {
+		// ratio is 4:3 or 1.33
+		width: 250px;
+		max-height: 188px;
+		
+		// margin: 0 auto;
+		// position: relative;
+		top: calc( (250px - 188px) / 2 );
+	}
+	.tablet img {
+		// width: 100%;
+		// border: 1px solid white;
+	}
+	.other_phone {
+		// float: left;
+		height: 250px;
+		// width: 30%;
+	}
+	.phone {
+		// ratio is 2:3 or .67
+		width: 93px;
+		height: 140px;
+		// margin: 0 auto;
+		// position: relative;
+		top: calc( (313px - 187px) / 2 );
+	}
+
+	.phone img {
+		// width: 100%;
+		// border: 1px solid white;
+	}
+
+	
+	// also see .images and .image in global
+
+	// FOOTER
+
+	// .footer_map {
+	// 	float: left;
+	// }
+	#mapid { 
+		height: 600px;
+		// width: 50%;
+	}
+
+	.footer_container {
+		margin: 70px auto 0px auto;
+		// i {
+		// 	font-size: 25px;
+		// 	padding: 5px;
+		// 	margin-right: 15px;
+		// 	&:hover {
+		// 		background-color: $accent-color-two;
+		// 		cursor: pointer;
+		// 	}
+		// }
+		// a {
+		// 	color: #fff;
+		// }
+	}
+
+	.footer_content {
+		// background-color: #07575B;
+		// .page {
+		// 	color: #fff;
+		// 	&:after {
+		// 		background-color: #fff;
+		// 	}
+		// }
+		// .title {
+		// 	color: #fff;
+		// }
+	}
+
+	.input_standard {
+		// background-color: #fff;
+		// padding: 10px 20px;
+		// border: none;
+	}
+
+	form {
+		width: 400px;
+		margin: 0 auto;
+		textarea{
+			width: 100%;
+			margin: 0px 0px 20px 0px;
+			height: 200px;
+			color: $title-font-stack;
+		}
+		// input[type="text"] {
+		// 	width: calc(50% - 10px);
+		// 	height: 40px;
+		// 	display: block;
+		// 	float: left;
+		// 	margin: 20px 10px 20px 0px;
+		// 	color: $title-font-stack;
+		// }
+		// input[type="email"] {
+		// 	width: calc(50% - 10px);
+		// 	height: 40px;
+		// 	display:block;
+		// 	float: right;
+		// 	margin: 20px 0px 20px 10px;
+		// 	color: $title-font-stack;
+		// }
+		// input[type="submit"] {
+		// 	padding: 10px 0px;
+		// 	width: 100px;
+		// 	text-align: center;
+		// 	background-color: #fff;
+		// 	text-transform: uppercase;
+		// 	font-size: 12px;
+		// 	border: none;
+		// 	&:hover {
+		// 		background-color: $accent-color-two;
+		// 		color: #fff;
+		// 	}
+		// }
+	}
+
+}

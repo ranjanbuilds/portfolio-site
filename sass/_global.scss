@@ -1,0 +1,91 @@
+.images {
+	width: 50%;
+	height: 700px;
+	position: relative;
+	.image {
+		height: 700px;
+		width: 100%;
+	}
+}
+
+.images_carousel {
+	display: none;
+	position: absolute;
+	
+}
+
+// Big splash images in each section
+a {
+	color: $accent-color;
+	text-decoration: none;
+	&:hover {
+		color: $accent-color-two;
+	}
+}
+
+.content {
+	width: 50%;
+	float: left;
+	height: 700px;
+	.page_nav {
+		margin: 35px 0px 0px 0px;
+		padding: 0;
+		float:right;
+		color: #222222;
+		text-transform: uppercase;
+		li {
+			float: left;
+			list-style-type: none;
+			margin: 0px 40px 0px 0px;
+			font-size: 14px;
+			letter-spacing: 2px;
+			&:hover {
+				color: $accent-color-two;
+			}
+		}
+	}
+}		
+
+.content_container {
+	max-width: 500px;
+	margin: 150px auto 0px auto;
+	position: relative;
+	clear: both;
+	.page {
+		font-weight: normal;
+		margin: 30px 0px 0px 0px;
+		font-size: 18px;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		&:after {
+			content: " ";
+			display:block;
+			margin: 25px 0px 0px 0px;
+			width: 75px;
+			height: 1px;
+			background-color: $primary-color;	
+		}
+	}
+	.title {
+		font-size: 35px;
+		color: #1f1f1f;
+		font-family: $title-font-stack;
+	}
+	.body {
+		line-height: 1.5;
+		font-size: 16px;
+	}
+	.more {
+		margin: 30px 0px 0px 0px;
+		.decoration {
+			float:left;
+			width: 30px;
+			height: 1px;
+			background-color: $primary-color;
+		}
+		.more_content {
+			float:left;
+			margin: 0px 0px 0px 40px;
+		}
+	}
+}

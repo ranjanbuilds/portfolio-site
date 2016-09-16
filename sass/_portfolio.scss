@@ -1,0 +1,107 @@
+.body_container_two {
+	display: none;
+}
+
+.portfolio_image {
+	float: left;
+}
+// also see .images and .image in global
+
+.portfolio_content_container {
+	position: absolute;
+	background-color: #fff;
+	height: 500px;
+	display: none;
+}
+
+.content .right_left {
+	li {
+		color: #fff;
+		padding: 10px 25px;
+		background-color: $accent-color;
+		&:hover {
+			background-color: $accent-color-two;
+			color: #fff;
+			cursor: pointer;
+		}
+	}
+}
+
+.content .portfolio_more .more_content {
+	margin: 0px 10px;
+	a {
+		text-transform: uppercase;
+		letter-spacing: 2px;
+	}
+}
+
+.box {
+	height: 700px;
+	max-width: 100%;
+	background-color: whitesmoke;
+	// border: 1px solid #07575B;
+
+}
+
+.all_devices {
+	height: calc (313px + 313px);
+	width: 500px;
+	
+	margin: 0 auto;
+	position: relative;
+	top: calc( (700px - 626px + 40px) / 2 );
+}
+
+.laptop {
+	height: 313px;
+	width: 500px;
+	
+	margin: 0px auto;
+}
+
+.laptop img {
+	width: 100%;
+	height: 100%;
+	border: 3px solid #07575B;
+}
+.other {
+	height: 313px;
+	width: 500px;
+	
+	margin: 0px auto;
+}
+.other_tablet {
+	float: left;
+	height: 313px;
+	width: 70%;
+	
+}
+.tablet {
+	width: 300px;
+	max-height: 226px;
+	
+	margin: 0 auto;
+	position: relative;
+	top: calc( (313px - 226px) / 2 );
+}
+.tablet img {
+	width: 100%;
+	border: 3px solid #07575B;
+}
+.other_phone {
+	float: left;
+	height: 313px;
+	width: 30%;
+}
+.phone {
+	width: 125px;
+	height: 187px;
+	margin: 0 auto;
+	position: relative;
+	top: calc( (313px - 187px) / 2 );
+}
+
+.phone img {
+	width: 100%;
+	border: 3px solid #07575B;
+}

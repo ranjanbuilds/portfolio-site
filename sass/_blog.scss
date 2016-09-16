@@ -1,0 +1,23 @@
+.blog_image {
+	float: left;
+}
+// also see .images and .image in global
+
+.blog_content_container {
+	position: absolute;
+	background-color: #fff;
+	height: 700px;
+	display: none;
+}
+
+.content .blog_more .more_content {
+	margin: 0px 10px;
+	a {
+		text-transform: uppercase;
+		letter-spacing: 2px;
+	}
+}
+
+.blog_media_query {
+	display: none;
+}

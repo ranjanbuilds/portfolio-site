@@ -1,3 +1,83 @@
-footer {
-	clear: both;
+.footer_map {
+	float: left;
+}
+#mapid { 
+	height: 700px;
+	width: 50%;
+}
+// also see .images and .image in global
+
+.footer_container {
+	margin: 100px auto 0px auto;
+	i {
+		font-size: 25px;
+		padding: 5px;
+		margin-right: 15px;
+		&:hover {
+			background-color: $accent-color-two;
+			cursor: pointer;
+		}
+	}
+	a {
+		color: #fff;
+	}
+}
+
+.footer_content {
+	background-color: #07575B;
+	.page {
+		color: #fff;
+		&:after {
+			background-color: #fff;
+		}
+	}
+	.title {
+		color: #fff;
+	}
+}
+
+.input_standard {
+	background-color: #fff;
+	padding: 10px 20px;
+	border: none;
+}
+
+form {
+	width: 500px;
+	margin: 0 auto;
+	textarea{
+		width: 100%;
+		margin: 0px 0px 20px 0px;
+		height: 200px;
+		color: $title-font-stack;
+	}
+	input[type="text"] {
+		width: calc(50% - 10px);
+		height: 40px;
+		display: block;
+		float: left;
+		margin: 20px 10px 20px 0px;
+		color: $title-font-stack;
+	}
+	input[type="email"] {
+		width: calc(50% - 10px);
+		height: 40px;
+		display:block;
+		float: right;
+		margin: 20px 0px 20px 10px;
+		color: $title-font-stack;
+	}
+	input[type="submit"] {
+		padding: 10px 0px;
+		width: 100px;
+		text-align: center;
+		background-color: #fff;
+		text-transform: uppercase;
+		font-size: 12px;
+		border: none;
+		&:hover {
+			background-color: $accent-color-two;
+			color: #fff;
+		}
+	}
 }
